@@ -1,0 +1,23 @@
+menu:
+    Blog: /
+    Works: /works/
+    QuickNotes: /notes/
+    Archive: /archives/
+    About: /about/
+    # GitHub: https://github.com/lwz7512
+    # Rss: /atom.xml
+
+favicon: /wali-2.png
+logo: /wali-2.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+# Analytics
+# google-analytics:
+ga: UA-65933410-1
+
+# Copyright Infomation
+startyear: 2018
