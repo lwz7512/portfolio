@@ -7,6 +7,86 @@ What did you learn yesterday?
 ====================================
 
 
+## 2018/03/20
+
+Finding the memory usage of JavaScript objects
+
+http://code.iamkate.com/javascript/finding-the-memory-usage-of-objects/
+
+
+## 2018/03/19
+
+javascript function bind:
+```
+require('./lib/core').bind(hexo);
+```
+the core module function only accept one parameter, but itself need another important object,
+so, create a new bind function to change the function's context, in function implementation having 'this' to access the object.
+
+```
+module.exports = function(args){
+  var hexo = this;
+}
+```
+
+
+## 2018/03/17
+
+
+HTML Entities
+
+- numeric character reference（NCR）
+
+etc:
+
+&#x4e2d;&#x56fd;  --> decimal
+&#20013;&#22269;  --> hexadecimal
+
+- encode & decode:
+
+Encode and Decode HTML entities using pure Javascript
+
+https://ourcodeworld.com/articles/read/188/encode-and-decode-html-entities-using-pure-javascript
+
+- entity encoder/decoder librariy
+
+https://github.com/mathiasbynens/he
+
+
+- npm install local module
+
+https://stackoverflow.com/questions/8088795/installing-a-local-module-using-npm
+
+```
+"dependencies": {
+    "bar": "file:../foo/bar"
+  }
+```
+
+
+## 2018/03/10
+
+
+- Pug, originally jade lang
+
+https://github.com/pugjs/pug
+
+- javascript string trim from end
+
+var str = "12345.00";
+str = str.substring(0, str.length - 1); // "12345.0"
+
+This is the accepted answer, but as per the conversations below,
+the slice syntax is much clearer:
+
+var str = "12345.00";
+str = str.slice(0, -1); // "12345.0"
+
+
+
+
+
+
 ## 2017/12/26
 
 - Reinstall windows10 home edition by usb iso:
@@ -342,17 +422,17 @@ ES6 classe:
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {  };
+    this.state = { /* initial state */ };
   }
 }
-```
+
 is equivalent to ES5:
-```
+
 var MyComponent = React.createClass({
   getInitialState() {
-     <!-- initial state  -->
-    return {  };
+    return { /* initial state */ };
   },
+ewxww
 ```
 - ES6 The Spread Operator
 
@@ -372,29 +452,6 @@ console.log(props);
 http://bluebirdjs.com/docs/getting-started.html
 
 bluebird
-
-
-
-
-## 2018/03/10
-
-- Pug, originally jade lang
-
-https://github.com/pugjs/pug
-
-- javascript string trim from end
-
-var str = "12345.00";
-str = str.substring(0, str.length - 1); // "12345.0"
-
-This is the accepted answer, but as per the conversations below,
-the slice syntax is much clearer:
-
-var str = "12345.00";
-str = str.slice(0, -1); // "12345.0"
-
-
-## ...
 
 
 

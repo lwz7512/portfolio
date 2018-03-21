@@ -1,9 +1,10 @@
 menu:
     Blog: /
     Works: /works/
+    Opensource: /opensource/
     QuickNotes: /notes/
-    Archive: /archives/
     About: /about/
+    # Archive: /archives/
     # GitHub: https://github.com/lwz7512
     # Rss: /atom.xml
 
