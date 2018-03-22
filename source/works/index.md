@@ -3,7 +3,7 @@ title: Works
 date: 2018-03-10 09:19:21
 ---
 
-> Blow is my works in latest years, some of that are side projects but still invested much time to it ...
+> Below is my works in latest years, some of that are side projects but still invested much time to it ...
 > I love hybrid mobile application development approaches, using javascript/HTML/Ionic/Cordova, it's very efficient and cost saving.
 > For the future products, I'll try react-native solution, because I'd found that it can achieve some targets ideally such as: live video streaming, realtime chat, but impossible for cordova architecture.
 
@@ -29,38 +29,61 @@ using canvas to implement animation text displaying and image file composing/exp
 
 ### 2017
 
-#### ionic based App: KPMG startup connect
+#### KPMG startup connect(ionic2 based App)
 
-...
+```
+cms+workgroup, sharing knowledge/work status/achievement, suitable for enterprise inner use.
+```
+
+![](/img/startup_conn.png)
 
 ### 2016
 
 
-#### kstart
+#### kstart(Framework7/Cordova based App)
 
-...
+```
+industry news sharing, connecting startup company entrepreneurs and investment funds.
+```
+
+![](/img/kstart_v1.png)
+
+
 
 #### 炎黄春秋网
 
-...
+```
+wordpress website mobile client using WP REST API v2
+```
 
-#### 快点艺考
+![](/img/yanhuang.png)
 
 
-...
+#### 快点艺考(ionic based)
 
+```
+mini version of student enrollment management app for kids education company
+```
+
+![](/img/kdyikao.png)
 
 ### 2015
 
-#### 快点报名v1.1.x
+#### 快点报名v1.1.x(ionic based)
 
-...
+```
+student enrollment management app for kids education company
+```
+
+![](/img/kdbaoming.png)
 
 #### 帝都限行宝
 
+```
+micro vehicle management app to calculate which car go out today because of regulation
+```
 
-...
-
+![](/img/xxbao.png)
 
 ### 2014
 
