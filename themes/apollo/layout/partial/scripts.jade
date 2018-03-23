@@ -8,3 +8,15 @@ if ga
         | (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',
         != '"' + ga + '"'
         | ,'auto');ga('send','pageview');
+        
+//- toggle script
+script
+  | var $toggle = document.querySelector('.ltmenu');
+  | var $navbar = document.querySelector('ul.nav');
+  | $toggle.addEventListener('click', function(){
+  |  if ($navbar.classList.contains('in')) {
+  |     $navbar.classList.remove('in');
+  |  }else{
+  |     $navbar.classList.add('in');
+  |  }
+  | });

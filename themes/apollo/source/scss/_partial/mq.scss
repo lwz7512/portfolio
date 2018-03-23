@@ -9,6 +9,10 @@ main.container {
     }
     header {
         padding: 20px 100px;
+        // hide the button
+        .title-bar {
+          display: none;
+        }
     }
 }
 
@@ -17,14 +21,61 @@ main.container {
         width: 100%;
     }
     header {
-        padding: 20px 0;
-        a.logo-link,
-        ul.nav.nav-list {
-            float: none;
-            display: block;
-            text-align: center;
+        padding: 0 0 20px 0;
+
+        .title-bar {
+          // display: block;
+          background-color: #42b983;
+          padding: 16px;
+          color: #FFFFFF;
+          font-size: 16px;
+          position: fixed;
+          width: 100%;
+          top: 0;
         }
-        li.nav-list-item {
+        // toggle button
+        button.ltmenu {
+          margin-right: 30px;
+          margin-top: 4px;
+          float: right;
+          background-color: transparent;
+          border-color: transparent;
+
+          span {
+            width: 18px;
+            height: 2px;
+            background: black;
+            display: block;
+          }
+          span.icon-bar + span.icon-bar {
+            margin-top: 3px;
+          }
+        }
+
+        // closed
+        ul.nav.nav-list {
+          display: none;
+        }
+        a.logo-link {
+          display: none;
+        }
+        // open
+        ul.nav.nav-list.in {
+          display: block;
+          text-align: left;
+          background-color: #F5F5F5;
+          position: absolute;
+          z-index: 4;
+          top: 56px;
+          left: 0;
+          margin-top: 0;
+          width: 100%;
+
+          .nav-list-item {
+            display: block;
+          }
+        }
+        li*.scss {
             padding: 10px 10px;
         }
     }

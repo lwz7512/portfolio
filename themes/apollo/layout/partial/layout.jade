@@ -5,6 +5,13 @@ html(lang=config.language)
     body
         .wrap
             header
+                .title-bar
+                  = config.title
+                  button(type="button").ltmenu
+                    //- | MENU
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
                 a.logo-link(href=url_for())
                     img(src=url_for(theme.logo) alt="logo")
                 include nav
