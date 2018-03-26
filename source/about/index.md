@@ -15,6 +15,9 @@ I love coding, and enjoy writing something I like or I want. By means of this bl
 - Wechat: lwz7512
 
 
-![waterfall](https://img-1256109222.cos.ap-beijing.myqcloud.com/images/BingWallpaper-2018-03-10.jpg)
+### Its me
+
+![me](/img/20180324.jpeg)
+
 
 to be continued...

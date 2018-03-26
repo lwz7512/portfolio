@@ -10,4 +10,4 @@ It's been a long time not writing something formal, especially when I went throu
 I believe that I have much to learn in my field(Front-end/Mobile App Dev), even working on these stuff for more than 10 years, there still remains much new untouched. By reviewing the works/projects of past couples of years, I found that It's too miserable, no success, no proud, no value...
 
 
-This year, 2018, keep learning , writing, participating community, doing something valuable stuff, even tiny. Forget those nonsense and bullshit politics, focus on my mission, go, now!
+This year, 2018, keep learning , writing blog, participating in open source projects, doing something valuable stuff, even tiny. Forget those nonsense and bullshit politics, focus on my mission, go, now!
