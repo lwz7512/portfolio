@@ -11,7 +11,7 @@ I love coding, and enjoy writing something I like or I want. By means of this bl
 
 ### Contact me
 
-- Email: 626528719@qq.com
+- Email: lwz7512@gmail.com
 - Wechat: lwz7512
 
 
