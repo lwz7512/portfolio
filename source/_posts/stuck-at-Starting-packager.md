@@ -78,7 +78,7 @@ To see the modified result of the app, just made some changes in App.js then wai
 
 It looks like easy and smooth, everything is OK until I press Ctrl+c to shutdown the dev server.
 
->> When I tried to restart the packager by ** npm start ** , it stopped in Starting packager...
+> When I tried to restart the packager by ** npm start ** , it stopped in Starting packager...
 
 even waited for couples of minutes, NO further progress AT ALL!!!
 
@@ -89,9 +89,9 @@ Then ctrl+c an restart again repeatedly and repeatedly... no changes.
 
 It made me almost crazy for this, the build server can't start again and development process stopped there also. So, there is no choice but to turn to search engine, finally, I found the post:
 
->> Stuck in "Starting packager"
+> Stuck in "Starting packager"
 
->> https://github.com/react-community/create-react-native-app/issues/203
+> https://github.com/react-community/create-react-native-app/issues/203
 
 The key solution is the watchman tool to kill all the file monitor process, then would be successful restart.
 
@@ -119,7 +119,7 @@ then, executing the watchman delete all command twice, console print the clear r
 }
  ```
 
- >> Also, close all the console window(and quit iTerm2) and reopen console.
+ > Also, close all the console window(and quit iTerm2) and reopen console.
   
 
  last, executing the restart command in app root:
