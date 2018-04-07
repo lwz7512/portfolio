@@ -4,7 +4,7 @@ date: 2018-04-06 21:54:23
 tags:
 ---
 
-Recently I started to learn react-native app development from zero. Reactjs/react-native has emerging for couples of years, and growing to a very big and mature ecosystem. I have given a glimpse to it, but can not be accustomed with JSX way to mingle script/template/style into one file. As an AngularJS/Ionic developer for almost 4 years, I gradually realized the limitation of the Ionic/Cordova approach. So, I began to step into reactive world this year.
+Recently I started to learn react-native app development from zero. Reactjs/react-native has emerging for couples of years, and growing to a very big and mature ecosystem. I had given a glimpse to it, but can not be accustomed with JSX way to mingle script/template/style into one file. As an AngularJS/Ionic developer for almost 4 years, I gradually realized the limitation of the Ionic/Cordova approach. So, I began to step into reactive world this year.
 
 After several days of official reactjs/react-native documentation reading, I start to create my first react-native app. Things changed a lot since the first publish of react-native, now it recommends to use ** create-react-native-app ** to start a RNA.
 
@@ -72,13 +72,13 @@ A BIG QR CODE IMAGE HERE
 
  ```
 
-I tried to use Expo app installed in my Android mobile to scan the QR code, but nothing happened. Then a press `a` in console, the application showed in screen(my Mac connected to mobile by usb cable).
+I tried to use Expo app installed in my Android mobile to scan the QR code, but nothing happened. Then I press `a` in console, the application showed in screen(my Mac connected to mobile by usb cable).
 
 To see the modified result of the app, just made some changes in App.js then waiting for rebuilding process and new content will present in the screen.
 
 It looks like easy and smooth, everything is OK until I press Ctrl+c to shutdown the dev server.
 
-> When I tried to restart the packager by ** npm start ** , it stopped in Starting packager...
+> When I attempted to restart the packager by ** npm start --reset-cache ** , it stopped in Starting packager...
 
 even waited for couples of minutes, NO further progress AT ALL!!!
 
@@ -93,6 +93,13 @@ It made me almost crazy for this, the build server can't start again and develop
 
 > https://github.com/react-community/create-react-native-app/issues/203
 
+and this:
+
+> react-native-scripts start stuck at "Starting packager..."
+
+> https://github.com/react-community/create-react-native-app/issues/343
+
+
 The key solution is the watchman tool to kill all the file monitor process, then would be successful restart.
 
 so, install watchman first:
@@ -102,30 +109,27 @@ $ brew update
 $ brew install watchman
 ```
 
-then, executing the watchman delete all command twice, console print the clear result:
+then, executing the watchman delete & shutdown command, console print the clear result:
 
  ```
- [username@~] $ watchman watch-del-all
- {
-     "version": "4.9.0",
-     "roots": [
-         "/Users/username/mobile/rn-my-app"
-     ]
- }
- [username@~] $ watchman watch-del-all
+ [username@~] $ watchman watch-del-all && watchman shutdown-server
 {
     "version": "4.9.0",
-    "roots": []
+    "roots": [
+        "/Users/username/mobile/rn-my-app"
+    ]
+}
+{
+    "version": "4.9.0",
+    "shutdown-server": true
 }
  ```
-
- > Also, close all the console window(and quit iTerm2) and reopen console.
   
 
  last, executing the restart command in app root:
 
  ```
-[liwenzhi@~/mobile/rn-my-app] $ npm start
+[liwenzhi@~/mobile/rn-my-app] $ npm start --reset-cache
  ```
 
 14 seconds later, the Packager started!
