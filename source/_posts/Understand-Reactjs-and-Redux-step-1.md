@@ -24,7 +24,7 @@ as well as the forked version of Super Simple React Redux Example, added with my
 - [My Simple React & Redux App](https://github.com/lwz7512/my-simple-app)
 
 
-### Snipets
+### Snippets
 
 The most mysterious part in reactjs-redux for me is how do ACTION & REDUCER cooperate to produce STATE & PROPS change. So, I manage to figure something out there:
 
