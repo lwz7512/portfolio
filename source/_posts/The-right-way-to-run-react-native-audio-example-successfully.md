@@ -14,7 +14,7 @@ The console gave the issue and resolve steps, I tried them several times, but st
 
 ### Snippets
 
-firt to init a new RN project by:
+first to init a new RN project by:
 
 ```
 $ react-native init AudioExample
@@ -40,7 +40,7 @@ last but not at least, link the native code to the two platform build:
 $ react-native link
 ```
 
-By now, the project is ready to run smoothly, all we need to do is migrate the react-native-audio/AudioExample/`AudioExample.js` to `App.js`.
+By now, the project is ready to run smoothly, all we need to do is migrating the react-native-audio/AudioExample/`AudioExample.js` to `App.js`.
 
 ### Source Code
 
