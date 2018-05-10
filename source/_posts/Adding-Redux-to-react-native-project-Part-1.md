@@ -6,7 +6,7 @@ tags:
 
 ### Background
 
-After couples of days of learning, I believe I have understand the structure and concepts of Redux. Now it's time to put it into practice for a real react-native project. My goal is pretty simple: intergrating Redux to a react-native seed project by only ONE new source file added. In this way, everything is clear to overview and highlight the points.
+After couples of days of learning, I believe I have understand the structure and concepts of Redux. Now it's time to put it into practice for a real react-native project. My goal is pretty simple: integrating Redux to a react-native seed project by only ONE new source file added. In this way, everything is clear to overview and highlight the points.
 
 ### Boilerplate
 
