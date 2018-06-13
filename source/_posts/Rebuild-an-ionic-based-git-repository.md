@@ -23,7 +23,7 @@ to create a blank new ionic2 project, run:
 $ ionic start blanknewio2 --v2 --ts
 ```
 
-Compared with the local blank new ionic2 project, a `www` directory not existed in cloned project:
+Compared with the local blank new ionic2 project, cloned project missed a `www` directory:
 
 ![](/img/ionic2.png)
 
