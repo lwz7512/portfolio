@@ -30,3 +30,10 @@ An Admin Interface for Hexo -- enhance version
 ionic2 missing components...
 
 [github repository](https://github.com/lwz7512/ionic2-misin-ctrls)
+
+
+## framework7 template project
+
+a production level of framework7 v1.3.5 replenished by requirejs and a dynamic router management.
+
+[f7tmplapp](https://github.com/lwz7512/f7tmplapp)
