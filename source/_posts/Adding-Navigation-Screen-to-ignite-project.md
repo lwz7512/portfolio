@@ -30,7 +30,7 @@ Default PizzaApp has only one screen `LaunchScreen`, but I want to add another s
 create new screen with cli:
 
 ```
-ignite generate screen PizzaLocationList
+$ ignite generate screen PizzaLocationList
 ```
 
 then, two file appeared in project:
