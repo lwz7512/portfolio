@@ -6,7 +6,7 @@ tags:
 
 ### Background
 
-The first time of usage of ignite cli and boilerplate are early May. As I was a beginner of RN and it seemed too complex for me at that time, so I abandoned. But after a complete zero to release building of my first RNC, I'm familiar with the work flow and the project structure than ever. So, today I went back the iginite project and did some experiments in it. The biggest gain in this exercise is the usage of `react-navigation` and `react-native-navbar`.
+The first time of usage of ignite cli and boilerplate are early May. As I was a beginner of RN and it seemed too complex for me at that time, so I gave up. But after a complete zero to release building of my first RNC, I'm familiar with the work flow and the project structure than ever. So, today I went back the iginite project and did some experiments in it. The biggest gain in this exercise is the usage of `react-navigation` and `react-native-navbar`.
 
 ### Snippets
 
