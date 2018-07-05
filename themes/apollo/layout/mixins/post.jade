@@ -1,7 +1,7 @@
 //- add tags display for post @2018/07/05
 mixin postInfo(item)
     div
-      if item.tags.data.length
+      if item.tags && item.tags.data
         //- - console.log(item.tags.data) 
         each tag in item.tags.data
             span.tag #{tag.name}
