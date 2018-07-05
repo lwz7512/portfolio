@@ -1,4 +1,11 @@
+//- add tags display for post @2018/07/05
 mixin postInfo(item)
+    div
+      if item.tags.data.length
+        //- - console.log(item.tags.data) 
+        each tag in item.tags.data
+            span.tag #{tag.name}
+            //- - console.log(tag.name)
     .post-info
         != full_date(item.date, 'll')
         if item.from && (is_home() || is_post())

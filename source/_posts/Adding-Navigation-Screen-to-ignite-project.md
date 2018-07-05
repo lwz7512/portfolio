@@ -2,7 +2,14 @@
 title: Adding Navigation Screen to ignite project
 date: 2018-06-26 21:50:03
 tags:
+- react
+- native
+- navigation
+excerpt: this is an excerpt...
 ---
+
+first try to add navigation to ignite project...
+<!-- more -->
 
 ### Background
 
@@ -116,5 +123,8 @@ ok, that's the go back NavigationBar customed by `titleConfig` and `backIconBtn`
 
 [is here](https://github.com/lwz7512/PizzaApp)
 
+### More
 
-...
+a complete navigation demos using react-native-navigation [are here](https://github.com/lwz7512/NavigationPlayground)!
+
+Enjoy!
