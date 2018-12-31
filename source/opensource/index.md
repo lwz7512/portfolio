@@ -6,6 +6,19 @@ date: 2018-03-21 00:23:13
 > couples of open source projects with few of stars...
 > writing opensource project should be a good habit to persist in!
 
+
+## Gitbook 3.2.4
+
+a community version after officially stop maintenance 2 years ago, including big features
+
+[Gitbook True Love version](https://github.com/lwz7512/gitbook)
+
+## Gatsby starter
+
+a starter template project with user identity support and post pagination.
+
+[gatsby-netlify-identity-starter](https://www.gatsbyjs.org/starters/lwz7512/gatsby-netlify-identity-starter/)
+
 ## Hexo Plugin
 
 #### hexo-html-syncer
