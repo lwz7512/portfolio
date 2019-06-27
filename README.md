@@ -3,8 +3,8 @@ Personal Portfolio based on Hexo 3.2.0
 
 Personal blog from 2018.03.09 to 2019.06.26
 
-![screen shots](/source/img/mobileshots.png)
-![screen shots](/source/img/mobileshots2.png)
+![screen shots](mobileshots.png)
+![screen shots](mobileshots2.png)
 
 ### v0.2
 
